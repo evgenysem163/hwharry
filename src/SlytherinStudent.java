@@ -68,9 +68,9 @@ public class SlytherinStudent extends  Hogwarts {
         int ability2 = slytherinStudent.ability();
         if (ability1 > ability2) {
 
-            System.out.printf("Слизеринец %s лучше, чем слизеринец %s: %d VS %d%n", getName(), slytherinStudent.getName(), ability1, ability2);
+            System.out.printf("Слизеринец %s лучше, чем слизеринец %s: %d VS %d%n",    getName(), slytherinStudent.getName(), ability1, ability2);
         } else if (ability2 > ability1) {
-            System.out.printf("Слизеринец %s лучше, чем слизеринец %s: %d VS %d%n", slytherinStudent.getName(), getName(), ability2, ability1);
+            System.out.printf("Слизеринец %s лучше, чем слизеринец %s: %d VS %d%n",    slytherinStudent.getName(), getName(), ability2, ability1);
         } else {
             System.out.printf("Слизеринец %s такой же, как слизеринец %s: %d VS %d%n", slytherinStudent.getName(), getName(), ability1, ability2);
         }

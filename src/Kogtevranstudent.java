@@ -8,15 +8,12 @@ public class Kogtevranstudent extends  Hogwarts {
     public int getSmart() {
         return smart;
     }
-
     public void setSmart(int smart) {
         this.smart = smart;
     }
-
     public int getWise() {
         return wise;
     }
-
     public void setWise(int wise) {
         this.wise = wise;
     }
@@ -24,7 +21,6 @@ public class Kogtevranstudent extends  Hogwarts {
     public int getWitty() {
         return witty;
     }
-
     public void setWitty(int witty) {
         this.witty = witty;
     }
@@ -52,9 +48,9 @@ public class Kogtevranstudent extends  Hogwarts {
             int ability1 = ability();
             int ability2 = kogtevranstuden.ability();
             if (ability1 > ability2) {
-                System.out.printf("Когтевранец %s лучше, чем когтевранец %s: %d VS %d%n", getName(), kogtevranstuden.getName(), ability1, ability2);
+                System.out.printf("Когтевранец %s лучше, чем когтевранец %s: %d VS %d%n",    getName(), kogtevranstuden.getName(), ability1, ability2);
             } else if (ability2 > ability1) {
-                System.out.printf("Когтевранец %s лучше, чем когтевранец %s: %d VS %d%n", kogtevranstuden.getName(), getName(), ability2, ability1);
+                System.out.printf("Когтевранец %s лучше, чем когтевранец %s: %d VS %d%n",    kogtevranstuden.getName(), getName(), ability2, ability1);
             } else {
                 System.out.printf("Когтевранец %s такой же, как когтевранец %s: %d VS %d%n", kogtevranstuden.getName(), getName(), ability1, ability2);
             }
