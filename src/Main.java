@@ -36,7 +36,6 @@ public class Main {
         harry.compareHogwarts(draco);
         harry.compareGriffindor(ron);
     }
-
     private static Gryffindorstudent generateGryffindorStudent(String name) {
         return new Gryffindorstudent(
                 name,
@@ -47,7 +46,6 @@ public class Main {
                 RANDOM.nextInt(100)
         );
     }
-
     private static Kogtevranstudent generateKogtevranstudent(String name) {
         return new Kogtevranstudent(
                 name,
@@ -59,7 +57,6 @@ public class Main {
                 RANDOM.nextInt(100)
         );
     }
-
     private static Hufflepuffstudent generateHufflepuffStudent(String name) {
         return new Hufflepuffstudent(
                 name,
